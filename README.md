@@ -8,6 +8,7 @@ AES does not use a Feistel network like DES, it uses variant of Rijndael.
 It has a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits.
 AES operates on a 4 × 4 column-major order array of bytes, termed the state
 PROGRAM:
+```
 NAME:VESLIN ANISH A
 REGNO:212223240175
 #include <stdio.h>
@@ -37,6 +38,7 @@ printf("Decrypted URL: %s\n", url);
 
 return 0;
 }
+```
 OUTPUT:
 ![Screenshot 2024-10-09 161149](https://github.com/user-attachments/assets/e27aee71-fc6e-4b27-ada1-fb05f3ee3941)
 
